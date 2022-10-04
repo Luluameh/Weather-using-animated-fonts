@@ -1,0 +1,93 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  
+  
+  }
+  
+  
+  
+  
+  h3 {
+    margin: 0;
+    font-size: 18px;
+    color: gray;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+  }
+  li {
+    display: inline-block;
+    margin: 0 20px 0 0;
+    
+  }
+  a {
+    text-decoration: none;
+  }
+  .container {
+    padding: 30px 50px;
+    margin: 20px 250px auto 20px;
+    max-width: 750px;
+    margin: auto;
+    margin-top: 70px;
+    
+  }
+  
+  .col-3 {
+    position: relative;
+    width: 25%;
+    padding-right:5px;
+    padding-left:5px;
+    
+  }
+  #current-location-button{
+  
+    background-color: brown;
+  }
+  #searchButton{
+    background-color: slateblue;
+  }
+  
+  .current-box {
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  .current-name {
+    font: size 20px;
+  }
+  .current-city {
+    font-size: 38px;
+    color: gray;
+  }
+  .current-temp {
+    position: relative;
+    font-size: 52px;
+    font-weight: 500;
+  }
+  .current-other,
+  .current-day {
+    font-size: 18px;
+    margin: 0;
+    color: grey;
+  }
+  .current-other {
+    top: 0;
+  }
+  .units {
+    position: absolute;
+    top: 10%;
+    font-size: 14px;
+    text-align: left;
+  }
+  #data-img {
+    font-size: 18px;
+    color: gray;
+  }
+  #celcius-link,
+  #fahrenheit-link {
+    color: black;
+  }
+  p{
+    text-align: center;
+  }
